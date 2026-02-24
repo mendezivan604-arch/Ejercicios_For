@@ -47,3 +47,10 @@ for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine($"Número: {i} -> {i * i}");
 }
+
+Console.WriteLine("Ejercicio 8");
+//Ejercicio 8
+for (int i = 5; i <= 50; i+= 5)
+{
+    Console.WriteLine($"{i}");
+}
