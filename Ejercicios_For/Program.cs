@@ -4,12 +4,14 @@ for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine($"Número: {i}");
 }
+
 Console.WriteLine("Ejercicio 2");
 //Ejercicio 2
 for (int i = 1; i <= 20; i++)
 {
     Console.Write($"{i} ");
 }
+
 Console.WriteLine(" ");
 Console.WriteLine("Ejercicio 3");
 //Ejercicio 3
@@ -37,4 +39,11 @@ Console.WriteLine("Ejercicio 6");
 for (int i2 = 1; i2 <= 5; i2++)
 {
     Console.WriteLine($"Hola");
+}
+
+Console.WriteLine("Ejercicio 7");
+//Ejercicio 7
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"Número: {i} -> {i * i}");
 }
