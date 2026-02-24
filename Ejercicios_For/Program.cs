@@ -26,8 +26,15 @@ for (int i2 = 0; i2 <= 20; i2+=2)
 }
 
 Console.WriteLine("Ejercicio 5");
-//Ejercicio 4
+//Ejercicio 5
 for (int i2 = 1; i2 <= 20; i2 += 2)
 {
     Console.WriteLine($"Número: {i2}");
+}
+
+Console.WriteLine("Ejercicio 6");
+//Ejercicio 6
+for (int i2 = 1; i2 <= 5; i2++)
+{
+    Console.WriteLine($"Hola");
 }
