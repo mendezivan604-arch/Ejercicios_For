@@ -54,3 +54,12 @@ for (int i = 5; i <= 50; i+= 5)
 {
     Console.WriteLine($"{i}");
 }
+
+Console.WriteLine("Ejercicio 9");
+//Ejercicio 9
+int suma = 0;
+for (int i = 1; i <= 10; i++)
+{
+    suma += i;
+}
+Console.WriteLine($"Suma: {suma}");
