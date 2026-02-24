@@ -72,3 +72,13 @@ for (int i = 1; i <= 100; i++)
     suma1 += i;
 }
 Console.WriteLine($"Suma: {suma1}");
+
+Console.WriteLine("Ejercicio 11");
+//Ejercicio 11
+Console.Write("Ingrese un número: ");
+int n = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"{n} x {i} = {n * i}");
+}
