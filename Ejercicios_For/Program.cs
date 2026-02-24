@@ -9,3 +9,9 @@ for (int i = 1; i <= 20; i++)
 {
     Console.Write($"{i} ");
 }
+
+//Ejercicio 3
+for (int i2 = 10; i2 >= 1; i2--)
+{
+    Console.WriteLine($"Número: {i2}");
+}
