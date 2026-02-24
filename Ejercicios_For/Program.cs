@@ -24,3 +24,10 @@ for (int i2 = 0; i2 <= 20; i2+=2)
 {
     Console.WriteLine($"Número: {i2}");
 }
+
+Console.WriteLine("Ejercicio 5");
+//Ejercicio 4
+for (int i2 = 1; i2 <= 20; i2 += 2)
+{
+    Console.WriteLine($"Número: {i2}");
+}
