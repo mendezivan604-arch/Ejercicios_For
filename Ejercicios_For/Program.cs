@@ -142,3 +142,18 @@ for (int i = 1; i <= 5; i++)
 }
 
 Console.WriteLine($"Cantidad mayores que 10: {contador}");
+
+Console.WriteLine("Ejercicio 17");
+//Ejercicio 17
+int pares = 0;
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    int n5 = int.Parse(Console.ReadLine());
+
+    if (n5 % 2 == 0)
+        pares++;
+}
+
+Console.WriteLine($"Cantidad de números pares: {pares}");
