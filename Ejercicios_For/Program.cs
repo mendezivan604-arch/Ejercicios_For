@@ -82,3 +82,13 @@ for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine($"{n} x {i} = {n * i}");
 }
+
+Console.WriteLine("Ejercicio 12");
+//Ejercicio 12
+Console.WriteLine("Ingrese un número: ");
+int n1 = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= n1; i++)
+{
+    Console.Write($"{i} ");
+}
