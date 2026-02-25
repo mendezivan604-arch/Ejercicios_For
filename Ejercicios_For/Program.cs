@@ -114,3 +114,16 @@ for (int i = 1; i <= 3; i++)
 }
 
 Console.WriteLine($"La suma total es: {suma2}");
+
+Console.WriteLine("Ejercicio 15");
+//Ejercicio 15
+double suma3 = 0;
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    suma3 += double.Parse(Console.ReadLine());
+}
+
+double promedio = suma3 / 5;
+Console.WriteLine($"El promedio es: {promedio}");
