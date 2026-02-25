@@ -85,10 +85,20 @@ for (int i = 1; i <= 10; i++)
 
 Console.WriteLine("Ejercicio 12");
 //Ejercicio 12
-Console.WriteLine("Ingrese un número: ");
+Console.Write("Ingrese un número: ");
 int n1 = int.Parse(Console.ReadLine());
 
 for (int i = 1; i <= n1; i++)
 {
-    Console.Write($"{i} ");
+    Console.WriteLine($"{i} ");
+}
+
+Console.WriteLine("Ejercicio 13");
+//Ejercicio 13
+Console.Write("Ingrese un número: ");
+int n2 = int.Parse(Console.ReadLine());
+
+for (int i = n2; i >= 1; i--)
+{
+    Console.WriteLine($"{i} ");
 }
