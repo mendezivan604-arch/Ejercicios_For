@@ -234,3 +234,16 @@ for (int i = 1; i <= cantidadventas; i++)
     total += venta;
 }
 Console.WriteLine($"la cantidad de venta sumada es : {total}");
+
+Console.WriteLine("Ejercicio 23");
+//Ejercicio 23
+Console.WriteLine("Ingrese la cantidad de notas");
+int cnotas = int.Parse(Console.ReadLine());
+double suma4 = 0;
+for (int i = 1; i <= cnotas; i++)
+{
+    Console.WriteLine("Ingrese nota");
+    double notas = double.Parse(Console.ReadLine());
+    suma4 += notas;
+}
+Console.WriteLine($"el promedio final es: {suma4 / cnotas}");
