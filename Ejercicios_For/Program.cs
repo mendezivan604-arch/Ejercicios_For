@@ -268,3 +268,15 @@ else
 {
     Console.WriteLine("Pongase pilas");
 }
+
+Console.WriteLine("Ejercicio 25");
+//Ejercicio 25
+Console.WriteLine("Ingrese el numero de asteriscos");
+int asterisco = int.Parse(Console.ReadLine());
+string asteriscossuma = "";
+for (int i = 1; i <= asterisco; i++)
+{
+
+    asteriscossuma += "*";
+    Console.WriteLine(asteriscossuma);
+}
