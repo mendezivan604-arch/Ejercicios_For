@@ -220,4 +220,17 @@ for (int i = 1; i <= cantidad; i++)
     if (n9 < 0)
         negativos++;
     
-}   
+}
+
+Console.WriteLine("Ejercicio 22");
+//Ejercicio 22
+Console.WriteLine("Ingrese la cantidad de ventas: ");
+int cantidadventas = int.Parse(Console.ReadLine());
+double total = 0;
+for (int i = 1; i <= cantidadventas; i++)
+{
+    Console.WriteLine("Ingrese el costo de la venta");
+    double venta = double.Parse(Console.ReadLine());
+    total += venta;
+}
+Console.WriteLine($"la cantidad de venta sumada es : {total}");
