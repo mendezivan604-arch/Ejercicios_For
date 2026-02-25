@@ -157,3 +157,19 @@ for (int i = 1; i <= 5; i++)
 }
 
 Console.WriteLine($"Cantidad de números pares: {pares}");
+
+Console.WriteLine("Ejercicio 18");
+//Ejercicio 18
+Console.Write("Ingrese número 1: ");
+int mayor = int.Parse(Console.ReadLine());
+
+for (int i = 2; i <= 5; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    int n7 = int.Parse(Console.ReadLine());
+
+    if (n7 > mayor)
+        mayor = n7;
+}
+
+Console.WriteLine($"El número mayor es: {mayor}");
