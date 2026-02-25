@@ -127,3 +127,18 @@ for (int i = 1; i <= 5; i++)
 
 double promedio = suma3 / 5;
 Console.WriteLine($"El promedio es: {promedio}");
+
+Console.WriteLine("Ejercicio 16");
+//Ejercicio 16
+int contador = 0;
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    int n4 = int.Parse(Console.ReadLine());
+
+    if (n4 > 10)
+        contador++;
+}
+
+Console.WriteLine($"Cantidad mayores que 10: {contador}");
