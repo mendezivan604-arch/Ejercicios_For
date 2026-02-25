@@ -102,3 +102,15 @@ for (int i = n2; i >= 1; i--)
 {
     Console.WriteLine($"{i} ");
 }
+
+Console.WriteLine("Ejercicio 14");
+//Ejercicio 14
+int suma2 = 0;
+
+for (int i = 1; i <= 3; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    suma2 += int.Parse(Console.ReadLine());
+}
+
+Console.WriteLine($"La suma total es: {suma2}");
