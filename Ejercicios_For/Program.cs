@@ -189,3 +189,21 @@ for (int i = 2; i <= 5; i++)
 }
 
 Console.WriteLine($"El número menor es: {menor}");
+
+Console.WriteLine("Ejercicio 20");
+//Ejercicio 20
+Console.Write("¿Cuántos números desea ingresar?: ");
+int N = int.Parse(Console.ReadLine());
+
+int positivos = 0;
+
+for (int i = 1; i <= N; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    int n8 = int.Parse(Console.ReadLine());
+
+    if (n8 > 0)
+        positivos++;
+}
+
+Console.WriteLine($"Cantidad de números positivos: {positivos}");
