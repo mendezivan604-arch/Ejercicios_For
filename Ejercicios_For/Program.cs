@@ -247,3 +247,24 @@ for (int i = 1; i <= cnotas; i++)
     suma4 += notas;
 }
 Console.WriteLine($"el promedio final es: {suma4 / cnotas}");
+
+Console.WriteLine("Ejercicio 24");
+//Ejercicio 24
+Console.WriteLine("Ingrese la cantidad de notas");
+int cantidaddenotas = int.Parse(Console.ReadLine());
+double sumanotass = 0;
+for (int i = 1; i <= cantidaddenotas; i++)
+{
+    Console.WriteLine("Ingrese nota");
+    double notas = double.Parse(Console.ReadLine());
+    sumanotass += notas;
+}
+double promedio1 = sumanotass / cantidaddenotas;
+if (promedio >= 61)
+{
+    Console.WriteLine("Aprobo felicidades");
+}
+else
+{
+    Console.WriteLine("Pongase pilas");
+}
