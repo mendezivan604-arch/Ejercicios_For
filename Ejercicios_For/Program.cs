@@ -173,3 +173,19 @@ for (int i = 2; i <= 5; i++)
 }
 
 Console.WriteLine($"El número mayor es: {mayor}");
+
+Console.WriteLine("Ejercicio 19");
+//Ejercicio 19
+Console.Write("Ingrese número 1: ");
+int menor = int.Parse(Console.ReadLine());
+
+for (int i = 2; i <= 5; i++)
+{
+    Console.Write($"Ingrese número {i}: ");
+    int n8 = int.Parse(Console.ReadLine());
+
+    if (n8 < menor)
+        menor = n8;
+}
+
+Console.WriteLine($"El número menor es: {menor}");
