@@ -207,3 +207,17 @@ for (int i = 1; i <= N; i++)
 }
 
 Console.WriteLine($"Cantidad de números positivos: {positivos}");
+
+Console.WriteLine("Ejercicio 21");
+//Ejercicio 21
+Console.WriteLine("¿Cuántos números desea ingresar?: ");
+int cantidad = int.Parse(Console.ReadLine());
+int negativos = 0;
+for (int i = 1; i <= cantidad; i++)
+{
+    Console.WriteLine("Ingrese un numero");
+    double n9 = double.Parse(Console.ReadLine());
+    if (n9 < 0)
+        negativos++;
+    
+}   
